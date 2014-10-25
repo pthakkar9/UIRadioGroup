@@ -15,7 +15,8 @@
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" 
+        android:orientation="vertical"
+        android:id="@+id/radioGroup"
         >
 
         <RadioButton
@@ -39,5 +40,13 @@
             android:text="@string/choice_3_string"
             android:textSize="24sp" />
     </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_choice_made_string"
+        android:textSize="24sp">
+    </TextView>
 
 </LinearLayout><!-- From: file:/C:/Users/parva.SwetaLaptop/AndroidStudioProjects/UIRadioGroup/app/src/main/res/layout/main.xml -->
